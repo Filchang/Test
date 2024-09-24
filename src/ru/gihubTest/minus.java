@@ -4,16 +4,16 @@ public class minus {
 
 
         Integer a;
-        Integer b;
+        Integer c;
 
-        public minus(Integer a, Integer b)
+        public minus(Integer a, Integer c)
         {
             this.a = a;
-            this.b = b;
+            this.c = c;
         }
 
         public Integer mi()
         {
-            return a-b;
+            return a-c;
         }
 }
