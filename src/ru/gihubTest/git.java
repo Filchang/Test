@@ -2,6 +2,10 @@ package ru.gihubTest;
 
 public class git {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+
+        sum s = new sum(15,29);
+
+        System.out.println(s.summary());
     }
 }
+status
